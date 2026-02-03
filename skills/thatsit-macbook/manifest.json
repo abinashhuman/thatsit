@@ -1,0 +1,34 @@
+{
+  "name": "thatsit-macbook",
+  "version": "1.0.0",
+  "description": "Custom skills for autonomous MacBook control with ThatsItAI",
+  "author": "",
+  "main": "index.ts",
+  "skills": [
+    {
+      "name": "open-app",
+      "description": "Open a macOS application by name",
+      "parameters": {
+        "appName": {
+          "type": "string",
+          "description": "Name of the application to open"
+        }
+      }
+    },
+    {
+      "name": "screenshot",
+      "description": "Take a screenshot of the current screen",
+      "parameters": {
+        "filename": {
+          "type": "string",
+          "description": "Output filename (optional)"
+        }
+      }
+    },
+    {
+      "name": "system-info",
+      "description": "Get system information about the MacBook",
+      "parameters": {}
+    }
+  ]
+}
